@@ -1,0 +1,14 @@
+.container {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  box-sizing: border-box;
+  background-color: blueviolet;
+  border: 2px solid lightgrey;
+  width: 200px;
+  height: 100px;
+}

@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 840px;
+}
+
+.item-1 {
+  background-color: grey;
+  min-width: 80px;
+  min-height: 80px;
+  border-radius: 5px;
+}
+
+.item-2 {
+  min-width: 180px;
+  display: flex;
+}
+
+.valoracion {
+  background-color: grey;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}

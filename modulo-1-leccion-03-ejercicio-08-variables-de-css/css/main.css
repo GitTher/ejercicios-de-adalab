@@ -1,0 +1,54 @@
+:root {
+  --header-background-color: #eaeaea;
+  --text-font-size: 16px;
+  --title-color: grey;
+  --link-color: green;
+  --global-margin: 0;
+  --global-padding: 20px;
+}
+
+body {
+  margin: var(--global-margin);
+}
+
+header {
+  background-color: var(--header-background-color);
+  padding: var(--global-padding);
+}
+
+main {
+  padding: var(--global-padding);
+}
+
+p {
+  width: 50%;
+  font-size: var(--text-font-size);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.title {
+  color: var(--title-color);
+  margin: var(--global-margin);
+}
+
+.subtitle {
+  color: var(--title-color);
+  margin: var(--global-margin);
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+p a {
+  color: var(--link-color);
+}

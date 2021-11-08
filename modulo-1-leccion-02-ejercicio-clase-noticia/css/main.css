@@ -1,0 +1,22 @@
+header {
+  background-color: lightgoldenrodyellow;
+}
+
+.menu {
+  background-color: lightpink;
+}
+
+nav {
+  background-color: aquamarine;
+}
+
+.link {
+  text-decoration: none;
+  color: mediumslateblue;
+  font-weight: 800;
+}
+
+#title {
+  color: teal;
+  font-size: 50px;
+}

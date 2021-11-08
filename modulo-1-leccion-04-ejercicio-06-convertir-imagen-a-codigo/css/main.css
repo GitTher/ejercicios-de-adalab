@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  max-width: 960px;
+}
+
+header {
+  background-color: orangered;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.aside-1 {
+  background-color: gold;
+}
+
+.aside-2 {
+  background-color: pink;
+}
+
+article {
+  background-color: cyan;
+}
+
+footer {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

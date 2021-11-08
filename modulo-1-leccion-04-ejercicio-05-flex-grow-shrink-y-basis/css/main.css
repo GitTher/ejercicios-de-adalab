@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  background-color: lightsteelblue;
+}
+
+main {
+  background-color: steelblue;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: orange;
+}

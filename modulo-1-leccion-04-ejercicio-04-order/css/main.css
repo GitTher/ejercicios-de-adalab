@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  background-color: lightpink;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.noticia {
+  background-color: lightskyblue;
+  width: 50%;
+}
+.noticia-5 {
+  order: -1;
+  width: 100%;
+}
