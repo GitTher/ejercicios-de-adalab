@@ -1,0 +1,11 @@
+body {
+  width: 500px;
+}
+
+.cookies {
+  position: fixed;
+  height: 100px;
+  width: 100vw;
+  background-color: yellow;
+  bottom: 0;
+}

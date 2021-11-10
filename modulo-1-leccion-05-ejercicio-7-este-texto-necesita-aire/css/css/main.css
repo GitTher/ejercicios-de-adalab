@@ -1,0 +1,7 @@
+p {
+  width: 86%;
+  max-width: 600px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}

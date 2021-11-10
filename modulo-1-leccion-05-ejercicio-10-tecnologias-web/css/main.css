@@ -1,0 +1,28 @@
+* {
+  font-family: sans-serif;
+}
+
+li {
+  text-decoration: underline;
+}
+
+li:hover {
+  cursor: help;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  border: 2px solid black;
+  color: #000;
+  border-radius: 6px;
+  padding-left: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

@@ -1,0 +1,14 @@
+body {
+  width: 500px;
+}
+
+header {
+  background-color: purple;
+  position: fixed;
+  z-index: 999;
+}
+
+main {
+  position: relative;
+  top: 100px;
+}

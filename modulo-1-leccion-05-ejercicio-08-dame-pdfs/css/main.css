@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  position: fixed;
+  right: 0;
+  top: 0;
+  /* transform: translate(0%, -100%); */
+  background-color: red;
+  border-radius: 2px;
+  width: 35px;
+}
