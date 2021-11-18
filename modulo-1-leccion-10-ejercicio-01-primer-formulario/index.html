@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primer Formulario</title>
+  </head>
+  <body>
+    <form action="https://adalab-server-form.herokuapp.com/" method="get">
+      <input
+        type="text"
+        id="firstName"
+        name="firstName"
+        placeholder="Nombre de pila"
+        required
+      />
+      <input type="text" id="lastName" name="lastName" placeholder="Apellido" />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="email"
+        required
+      />
+      <input
+        type="text"
+        id="street"
+        name="street"
+        placeholder="Dirección completa"
+        required
+      />
+      <input type="text" id="city" name="city" value="Madrid" required />
+      <input
+        type="text"
+        id="province"
+        name="province"
+        placeholder="Madrid"
+        required
+      />
+      <input type="text" id="country" name="country" value="España" required />
+      <input type="text" id="DNI" name="DNI" placeholder="00000000X" required />
+      <input
+        type="tel"
+        id="phoneNumber"
+        name="phoneNumber"
+        placeholder="000000000"
+        required
+      />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="contraseña1234"
+        required
+      />
+      <input
+        type="password"
+        id="repeatPassword"
+        name="repeatPassword"
+        placeholder="Vuelve a escribir tu contraseña"
+        required
+      />
+      <input type="submit" id="enviar" name="enviar" placeholder="Enviar" />
+    </form>
+  </body>
+</html>

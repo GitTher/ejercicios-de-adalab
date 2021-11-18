@@ -1,13 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  width: 100%;
-  max-width: 600px;
-  padding-left: 10px;
-  padding-right: 10px;
+  /* width: 100%;
+  max-width: 600px; */
+  /* padding-left: 10px;
+  padding-right: 10px;*/
 }
 
 header {
-  background-color: darkgray;
-  width: 100vw;
+  background-color: #333;
+  /* width: 100vw; */
+  color: #aaa;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 nav {
@@ -31,6 +39,8 @@ main {
   display: column;
   justify-content: space-between;
   align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 ul {
@@ -50,4 +60,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
