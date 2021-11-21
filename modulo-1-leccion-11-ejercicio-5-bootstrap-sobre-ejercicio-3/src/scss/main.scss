@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: content-box;
+}
+
+.header {
+  background-color: lightpink;
+  height: 20vh;
+}
+
+.menu {
+  background-color: indigo;
+  height: 60vh;
+}
+
+.content {
+  background-color: indianred;
+  height: 60vh;
+}
+
+.footer {
+  background-color: lightblue;
+  height: 20vh;
+}
