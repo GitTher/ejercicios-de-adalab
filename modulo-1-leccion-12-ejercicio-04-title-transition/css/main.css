@@ -1,0 +1,25 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://www.onlygfx.com/wp-content/uploads/2021/04/white-triangle-pattern-seamless-background-5.jpg);
+}
+
+.title {
+  animation-duration: 3s;
+  animation-name: intro;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+}
+
+@keyframes intro {
+  from {
+    margin-top: -1100px;
+  }
+
+  to {
+    margin-top: 0;
+  }
+}

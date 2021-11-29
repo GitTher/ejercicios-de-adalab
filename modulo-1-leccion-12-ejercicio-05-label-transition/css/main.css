@@ -1,0 +1,30 @@
+/* input {
+  position: absolute;
+  top: 20px;
+}
+input ~ span {
+  transition: top 0.7s ease;
+  position: absolute;
+  top: 20px;
+}
+input:focus ~ span {
+  top: 0px;
+} */
+
+input {
+  position: absolute;
+  top: 20px;
+}
+
+.name {
+  position: absolute;
+  top: 20px;
+  z-index: 99;
+  color: black;
+  transition: all 0.7s ease;
+}
+
+input:focus .name {
+  top: 0px;
+  color: blueviolet;
+}
