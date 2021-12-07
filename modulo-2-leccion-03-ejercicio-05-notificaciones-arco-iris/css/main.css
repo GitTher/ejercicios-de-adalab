@@ -1,0 +1,22 @@
+.container {
+  width: 200px;
+  height: 75px;
+}
+
+.success {
+  border: 1px darkgreen;
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+.error {
+  border: 1px darkred;
+  background-color: lightpink;
+  color: darkred;
+}
+
+.warning {
+  border: 1px goldenrod;
+  background-color: lightyellow;
+  color: goldenrod;
+}
