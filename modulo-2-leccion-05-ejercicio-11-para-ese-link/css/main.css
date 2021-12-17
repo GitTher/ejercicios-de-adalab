@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+
+.nav {
+  background-color: pink;
+  width: 100%;
+  position: fixed;
+}
+
+.nav__list {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list--item {
+  list-style: none;
+}
+
+.nav__list--link {
+  text-decoration: none;
+  color: #333;
+}
+
+.content {
+  margin: 15px;
+}
+
+.first {
+  padding-top: 50px;
+}
