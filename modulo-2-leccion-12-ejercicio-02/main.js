@@ -12,20 +12,24 @@ console.log(cityInput.value);
 
 const cityImage = document.querySelectorAll('.cityImage');
 
+const madrid = 'https://www.madridtourstickets.com/wp-content/uploads/2018/01/Highlights-madrid-300x300.jpg';
+const paris = 'https://infoliteraria.com/wp-content/uploads/2020/11/Paris-min-300x300.jpg';
+const nuevaYork = 'https://image.nuevayork.es/wp-content/uploads/2019/05/Top-10-in-New-York-Empire-State-Building.png.webp';
+
 function handleCityImage() {
   if (cityInput.value === 'paris') {
     for (const eachCity of cityImage) {
-      eachCity.src = "https://infoliteraria.com/wp-content/uploads/2020/11/Paris-min-300x300.jpg";
+      eachCity.src = paris;
     }
 
   } else if (cityInput.value === 'madrid') {
     for (const eachCity of cityImage) {
-      eachCity.src = "https://www.madridtourstickets.com/wp-content/uploads/2018/01/Highlights-madrid-300x300.jpg";
+      eachCity.src = madrid;
     }
 
   } else if (cityInput.value === 'nuevayork') {
     for (const eachCity of cityImage) {
-      eachCity.src = "https://image.nuevayork.es/wp-content/uploads/2019/05/Top-10-in-New-York-Empire-State-Building.png.webp";
+      eachCity.src = nuevaYork;
     }
 
   }
