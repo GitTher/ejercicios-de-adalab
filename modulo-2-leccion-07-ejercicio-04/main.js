@@ -1,7 +1,5 @@
 'use strict';
 
-/* --- SIN HACER --- */
-
 let acc = 2017;
 
 for (let index = 0; index < 15; index++) {
