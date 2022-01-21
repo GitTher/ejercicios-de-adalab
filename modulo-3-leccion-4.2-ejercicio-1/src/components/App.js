@@ -3,28 +3,25 @@ import '../styles/App.scss';
 
 function App() {
   const [tasks, setTasks] = useState([
-    { task: 'Comprar harina, jamón y pan rallado', completed: true },
-    { task: 'Hacer croquetas ricas', completed: true },
-    { task: 'Ir a la puerta de un gimnasio', completed: false },
-    { task: 'Comerme las croquetas mirando a la gente que entra en el gimnasio', completed: false }
+    { task: 'Comprar harina, jamón y pan rallado', completed: true, id: '0' },
+    { task: 'Hacer croquetas ricas', completed: true, id: '1' },
+    { task: 'Ir a la puerta de un gimnasio', completed: false, id: '2' },
+    { task: 'Comerme las croquetas mirando a la gente que entra en el gimnasio', completed: false, id: '3' }
   ]);
 
   const renderTasks = () => {
-    for (let index = 0; index < tasks.length; index++) {
-      tasks[index].id = index;
-    }
-    return tasks.map(task => {
-      if (task.completed === true) {
-        return <li key={task.id} id={task.id} className="done" onClick={handleTask}>{task.task}</li>;
-      } else {
-        return <li key={task.id} id={task.id} onClick={handleTask}>{task.task}</li>;
-      }
-    });
+    return tasks.map(task => (
+      task.completed === true ? (
+        <li key={task.id} id={task.id} className="done" onClick={handleTask}>{task.task}</li>
+      ) : (
+        <li key={task.id} id={task.id} onClick={handleTask}>{task.task}</li>
+      )
+    ));
   }
 
   const handleTask = (event) => {
     const selectedTask = event.currentTarget.id;
-    const foundTask = tasks.find(task => task.id === parseInt(selectedTask));
+    const foundTask = tasks.find(task => task.id === selectedTask);
     foundTask.completed = !foundTask.completed;
     setTasks([...tasks]);
   }
