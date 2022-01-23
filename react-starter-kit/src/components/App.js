@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 // import { Link, Route, Switch, useRouteMatch } from 'react-router-dom';
 // import '../styles/App.scss';
+// import PropTypes from 'prop-types';
 
 function App() {
   return (
